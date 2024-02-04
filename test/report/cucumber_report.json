@@ -1,0 +1,450 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7104751100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Ingresar a la Categoria Comics desde Home",
+        "description": "",
+        "id": "categoria-comics;ingresar-a-la-categoria-comics-desde-home",
+        "after": [
+          {
+            "result": {
+              "duration": 726511900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 237647000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "el usuario se encuentra en la pagina Home",
+            "match": {
+              "location": "Test.el_usuario_se_encuentra_en_la_pagina_Home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2036171300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "hacen click en el boton",
+            "match": {
+              "location": "Test.hacen_click_en_el_boton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140884200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "debe redirigir a la pantalla comics",
+            "match": {
+              "location": "Test.debe_redirigir_a_la_pantalla_comics()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@browser"
+          },
+          {
+            "line": 5,
+            "name": "@slow"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Bebiendo",
+        "description": "",
+        "id": "categoria-comics;bebiendo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2439200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Hay 10 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 4
+                }
+              ],
+              "location": "Test.hayCervezas(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Tomo 5 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 5
+                }
+              ],
+              "location": "Test.tomoCervezas(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Deberian quedar 5 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 16
+                }
+              ],
+              "location": "Test.deberianQuedarCervezas(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@outline"
+          },
+          {
+            "line": 11,
+            "name": "@fast"
+          },
+          {
+            "line": 1,
+            "name": "@funcional"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Bebiendo",
+        "description": "",
+        "id": "categoria-comics;bebiendo;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 399400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Hay 15 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 4
+                }
+              ],
+              "location": "Test.hayCervezas(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Tomo 10 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 5
+                }
+              ],
+              "location": "Test.tomoCervezas(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Deberian quedar 5 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 16
+                }
+              ],
+              "location": "Test.deberianQuedarCervezas(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@outline"
+          },
+          {
+            "line": 11,
+            "name": "@fast"
+          },
+          {
+            "line": 1,
+            "name": "@funcional"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Bebiendo",
+        "description": "",
+        "id": "categoria-comics;bebiendo;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 321400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Hay 10 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 4
+                }
+              ],
+              "location": "Test.hayCervezas(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Tomo 1 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 5
+                }
+              ],
+              "location": "Test.tomoCervezas(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Deberian quedar 9 cervezas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 16
+                }
+              ],
+              "location": "Test.deberianQuedarCervezas(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@outline"
+          },
+          {
+            "line": 11,
+            "name": "@fast"
+          },
+          {
+            "line": 1,
+            "name": "@funcional"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Doc String",
+        "description": "",
+        "id": "categoria-comics;doc-string",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2678700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Un blog \"Random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Random",
+                  "offset": 9
+                }
+              ],
+              "location": "Test.unBlog(String,String)"
+            },
+            "keyword": "Given ",
+            "doc_string": {
+              "content_type": "",
+              "line": 26,
+              "value": "La teoría de la relatividad general propone\r\nque la propia geometría del espacio-tiempo\r\nse ve afectada por la presencia de materia."
+            }
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@docstring"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Data table",
+        "description": "",
+        "id": "categoria-comics;data-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3044900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Los siguientes usuarios existentes:",
+            "match": {
+              "location": "Test.losSiguientesUsuariosExistentes(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "nombre",
+                  "email",
+                  "twitter"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "santi",
+                  "santi@gmail.com",
+                  "@santi"
+                ],
+                "line": 37
+              },
+              {
+                "cells": [
+                  "orion",
+                  "ori@gmail.com",
+                  "@ori"
+                ],
+                "line": 38
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@datatable"
+          }
+        ]
+      }
+    ],
+    "name": "Categoria Comics",
+    "description": "Como usuario quiero leer comics",
+    "id": "categoria-comics",
+    "keyword": "Feature",
+    "uri": "test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@funcional"
+      }
+    ]
+  }
+]
